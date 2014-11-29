@@ -1,0 +1,19 @@
+{
+  "name": "micromark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test | tap-spec"
+  },
+  "author": "Brian LeRoux <b@brian.io>",
+  "license": "Apache2",
+  "dependencies": {
+    "commonmark": "^0.12.0",
+    "lodash.template": "^2.4.1"
+  },
+  "devDependencies": {
+    "tap-spec": "^2.1.0",
+    "tape": "^3.0.3"
+  }
+}
